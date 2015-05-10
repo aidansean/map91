@@ -1,0 +1,18 @@
+canvas#canvas_map{
+  border : 2px solid black ;
+  margin : auto ;
+}
+
+div#div_screenshots{
+  display : none ;
+}
+input#input_blocksize{
+  width : 50px ;
+  font : 10pt arial , sans-serif ;
+}
+p#p_form{
+  text-align : center ;
+}
+p#p_form, select#select_map, input#input_blocksize, input#submit_changeMap{
+  font : 14pt arial , sans-serif ;
+}
