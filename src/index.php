@@ -88,7 +88,8 @@ $js_scripts[] = 'map_texts/midtownBuilding.txt' ;
 $js_scripts[] = 'tilesets.js'  ;
 $js_scripts[] = 'bigmap.js' ;
 $js_scripts[] = 'functions.js' ;
-include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
+include_once('project.php') ;
+include_once($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 ?>
 <div class="right">
   <h3>About</h3>

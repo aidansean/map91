@@ -76,7 +76,7 @@ function start(){
   }
     
   update_settings() ;
-  //draw_all() ;
+  draw_all() ;
   
   if(getParameterByName('bigmap_mainland'       )) bigmap_mainland.draw(context_map) ;
   if(getParameterByName('bigmap_batemantower'   )) bigmap_batementower.draw(context_map) ;
@@ -90,8 +90,6 @@ function start(){
   if(getParameterByName('bigmap_meat'           )) bigmap_meat.draw(context_map) ;
   if(getParameterByName('bigmap_underpass'      )) bigmap_underpass.draw(context_map) ;
   if(getParameterByName('bigmap_endgame'        )) bigmap_endgame.draw(context_map) ;
-  
-  
   if(getParameterByName('bigmap_all')) draw_bigmap_all() ;
 }
 
